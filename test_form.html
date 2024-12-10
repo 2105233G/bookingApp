@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test Booking Form</title>
+  </head>
+  <body>
+    <form action="book_meeting.php" method="POST">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        value="Test User"
+        required
+      /><br /><br />
+
+      <label for="date">Date:</label>
+      <input
+        type="text"
+        id="date"
+        name="date"
+        value="2024-11-05"
+        required
+      /><br /><br />
+
+      <label for="starttime">Start Time:</label>
+      <input
+        type="text"
+        id="starttime"
+        name="starttime"
+        value="10:00"
+        required
+      /><br /><br />
+
+      <label for="endtime">End Time:</label>
+      <input
+        type="text"
+        id="endtime"
+        name="endtime"
+        value="12:00"
+        required
+      /><br /><br />
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </body>
+</html>
